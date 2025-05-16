@@ -1,0 +1,73 @@
+body.login{
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    align-items: center;
+    display:flex ;
+}
+
+#login {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.login form {
+    border: 0;
+    box-shadow: none;
+    background: none;
+    padding: 0;
+}
+#login form p.submit{
+    display: block;
+}
+#login form p.submit input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    border: 0;
+    background-color: blue;
+    padding: 10px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+#login form p.submit input:hover{
+    background: black;
+    color: #fff;
+}
+.login #nav{
+    margin: 0;
+    margin-top: 10px;
+    width: 40%;
+    float: left;
+    padding: 0;
+
+}
+.login #backtoblog{
+    margin: 0;
+    margin-top: 10px;
+    width: 60%;
+    float: right;
+    text-align: right;
+    padding: 0;
+}
+.login #backtoblog a{
+    padding: 6px 15px;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+.login #backtoblog a:hover{
+    background-color: rgb(49, 22, 168);
+    color: #fff;
+}
+
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+    background: aqua;
+    color: #000;
+    font-weight: 400;
+}
+
+.language-switcher{
+   display: none;
+}
