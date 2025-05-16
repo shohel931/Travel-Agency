@@ -63,7 +63,24 @@
     background: #007BFF;
     color: #fff;
 }
-
+/* Header Button */
+.button_area{
+    margin: 12px 0;
+    text-align: center;
+}
+.button_area a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.button_area a:hover{
+    background: #000;
+    color: #fff;
+}
 
 
 /* Footer Area */
@@ -209,3 +226,4 @@
     border-radius: 5px;
     padding: 5px 10px;
 }
+
