@@ -1,0 +1,12 @@
+body{
+    background-color: aliceblue;
+}
+
+/* Header Area */
+#header_area{
+    background-color: red;
+    padding: 20px 0;
+}
+#header_area .col-md-3 .logo img{
+    width: 40%;
+}
