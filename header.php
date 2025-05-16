@@ -16,7 +16,14 @@
                     <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(). '/img/logo.png' ?>" alt=""></a>
                 </div>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <ul id="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Packge</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                </div>
             <div class="col-md-3"></div>
         </div>
      </div>
