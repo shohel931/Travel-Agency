@@ -17,14 +17,15 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <ul id="nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Packge</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                <div class="menu_area">
+                <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_id' =>'nav')); ?>
                 </div>
-            <div class="col-md-3"></div>
         </div>
+        <div class="col-md-3">
+            <div class="button_area">
+                <a href="<?php echo home_url(); ?>">Plan Your Trip</a>
+            </div>
+        </div>
+     </div>
      </div>
 </header>

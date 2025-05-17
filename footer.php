@@ -1,5 +1,5 @@
 <footer id="footer_area">
-    <div class="widgrt_area"></div>
+    <div class="widgrt_area">
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
