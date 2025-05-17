@@ -5,35 +5,35 @@
 
 // Global
 function sample_global_customize($wp_customize){
-    $wp_customize-> add_panel('sample_theme_global', array(
-        'title' => __('Global', 'sample_theme'),
+    $wp_customize-> add_panel('travel-agency_global', array(
+        'title' => __('Global', 'travel-agency'),
         'priority' => 10,
     ));
 
 
       // Logo Section
-      $wp_customize-> add_section('sample_theme_logo', array(
-        'title' =>__('Logo Upload', 'sample_theme'),
-        'description' => __('Upload your logo here', 'sample_theme'),
+      $wp_customize-> add_section('travel-agency_logo', array(
+        'title' =>__('Logo Upload', 'travel-agency'),
+        'description' => __('Upload your logo here', 'travel-agency'),
         'priority' => 10,
-        'panel' => 'sample_theme_global',
+        'panel' => 'travel-agency_global',
     ));
     $wp_customize->add_setting('sample_settings', array(
         'default' => get_template_directory_uri(). '/img/logo.png',
         'transport' => 'refresh',
     ));
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'sample_settings', array(
-        'label' =>__('Logo', 'sample_theme'),
-        'description' => __('Upload your logo here', 'sample_theme'),
+        'label' =>__('Logo', 'travel-agency'),
+        'description' => __('Upload your logo here', 'travel-agency'),
         'setting' => 'sample_settings',
-        'section' => 'sample_theme_logo',
+        'section' => 'travel-agency_logo',
     )));
 
     // Coppyright Area
     $wp_customize-> add_section('sample_coppyright_area', array(
-        'title' =>__('CoppyRight', 'sample_theme'),
+        'title' =>__('CoppyRight', 'travel-agency'),
         'priority' => 20,
-        'panel' => 'sample_theme_global',
+        'panel' => 'travel-agency_global',
     ));
 
     // Coppyright Text
@@ -42,7 +42,7 @@ function sample_global_customize($wp_customize){
         'transport' => 'refresh',
     ));
     $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'sample_coppy_setting', array(
-        'label' =>__('Coppyright', 'sample_theme'),
+        'label' =>__('Coppyright', 'travel-agency'),
         'setting' => 'sample_coppy_setting',
         'section' => 'sample_coppyright_area',
     )));
@@ -52,7 +52,7 @@ function sample_global_customize($wp_customize){
         'transport' => 'refresh',
     ));
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_coppyright', array(
-        'label' => __('Background Color', 'sample_theme'),
+        'label' => __('Background Color', 'travel-agency'),
         'setting' => 'sample_coppyright',
         'section' => 'sample_coppyright_area',
     )));
@@ -62,7 +62,7 @@ function sample_global_customize($wp_customize){
         'transport' => 'refresh',
     ));
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_coppyright_text', array(
-        'label' => __('Text Color', 'sample_theme'),
+        'label' => __('Text Color', 'travel-agency'),
         'setting' => 'sample_coppyright_text',
         'section' => 'sample_coppyright_area',
     )));
@@ -70,9 +70,9 @@ function sample_global_customize($wp_customize){
 
     // Menu Area
     $wp_customize-> add_section('sample_menu_area', array(
-        'title' =>__('Menu Color', 'sample_theme'),
+        'title' =>__('Menu Color', 'travel-agency'),
         'priority' => 30,
-        'panel' => 'sample_theme_global',
+        'panel' => 'travel-agency_global',
     ));
 
     // menu color
@@ -81,7 +81,7 @@ function sample_global_customize($wp_customize){
         'transport' => 'refresh',
     ));
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_color_menu', array(
-        'label' => __('Menu Color', 'sample_theme'),
+        'label' => __('Menu Color', 'travel-agency'),
         'setting' => 'sample_color_menu',
         'section' => 'sample_menu_area',
     )));
@@ -91,7 +91,7 @@ function sample_global_customize($wp_customize){
         'transport' => 'refresh',
     ));
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_hover_menu', array(
-        'label' => __('Menu Hover', 'sample_theme'),
+        'label' => __('Menu Hover', 'travel-agency'),
         'setting' => 'sample_hover_menu',
         'section' => 'sample_menu_area',
     )));
@@ -102,7 +102,7 @@ function sample_global_customize($wp_customize){
         'transport' => 'refresh',
     ));
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_drop_menu', array(
-        'label' => __('Dropdown Color', 'sample_theme'),
+        'label' => __('Dropdown Color', 'travel-agency'),
         'setting' => 'sample_drop_menu',
         'section' => 'sample_menu_area',
     )));
@@ -110,9 +110,9 @@ function sample_global_customize($wp_customize){
     
     // Widget Section
     $wp_customize-> add_section('sample_widget_color', array(
-        'title' => __('Widget Color', 'sample_theme'),
+        'title' => __('Widget Color', 'travel-agency'),
         'priority' => 40,
-        'panel' => 'sample_theme_global',
+        'panel' => 'travel-agency_global',
     ));
     // Widget BG Color
     $wp_customize->add_setting('sample_widget_bg', array(
@@ -120,7 +120,7 @@ function sample_global_customize($wp_customize){
         'transport' => 'refresh',
     ));
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_widget_bg', array(
-        'label' => __('Background Color', 'sample_theme'),
+        'label' => __('Background Color', 'travel-agency'),
         'setting' => 'sample_widget_bg',
         'section' => 'sample_widget_color',
     )));
@@ -130,25 +130,25 @@ function sample_global_customize($wp_customize){
         'transport' => 'refresh',
     ));
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_widget_text', array(
-        'label' => __('Text Color', 'sample_theme'),
+        'label' => __('Text Color', 'travel-agency'),
         'setting' => 'sample_widget_text',
         'section' => 'sample_widget_color',
     )));
 
     // Color Area
     $wp_customize-> add_section('sample_color_area', array(
-        'title' =>__('Color', 'sample_theme'),
+        'title' =>__('Color', 'travel-agency'),
         'priority' => 50,
-        'panel' => 'sample_theme_global',
+        'panel' => 'travel-agency_global',
     ));
     // Background Color
-    $wp_customize->add_setting('sample_theme_color_picker', array(
+    $wp_customize->add_setting('travel-agency_color_picker', array(
         'default' => '#ffffff',
         'transport' => 'refresh',
     ));
-    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_theme_color_picker', array(
-        'label' => __('Background Color', 'sample_theme'),
-        'setting' => 'sample_theme_color_picker',
+    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'travel-agency_color_picker', array(
+        'label' => __('Background Color', 'travel-agency'),
+        'setting' => 'travel-agency_color_picker',
         'section' => 'sample_color_area',
     )));
     // Header Color Section
@@ -157,7 +157,7 @@ function sample_global_customize($wp_customize){
         'transport' => 'refresh',
     ));
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_headercolor', array(
-        'label' => __('Header Color', 'sample_theme'),
+        'label' => __('Header Color', 'travel-agency'),
         'setting' => 'sample_headercolor',
         'section' => 'sample_color_area',
     )));
@@ -165,9 +165,9 @@ function sample_global_customize($wp_customize){
 
     // Button Area
     $wp_customize-> add_section('sample_buttons_area', array(
-        'title' =>__('Buttons', 'sample_theme'),
+        'title' =>__('Buttons', 'travel-agency'),
         'priority' => 60,
-        'panel' => 'sample_theme_global',
+        'panel' => 'travel-agency_global',
     ));
     // Text Color
    $wp_customize->add_setting('sample_btn_text', array(
@@ -175,7 +175,7 @@ function sample_global_customize($wp_customize){
        'transport' => 'refresh',
    ));
    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_btn_text', array(
-       'label' => __('Text Color', 'sample_theme'),
+       'label' => __('Text Color', 'travel-agency'),
        'setting' => 'sample_btn_text',
        'section' => 'sample_buttons_area',
    )));
@@ -185,7 +185,7 @@ function sample_global_customize($wp_customize){
       'transport' => 'refresh',
   ));
   $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_btn_text_hover', array(
-      'label' => __('Text Hover', 'sample_theme'),
+      'label' => __('Text Hover', 'travel-agency'),
       'setting' => 'sample_btn_text_hover',
       'section' => 'sample_buttons_area',
   )));
@@ -195,7 +195,7 @@ function sample_global_customize($wp_customize){
         'transport' => 'refresh',
     ));
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_btn_back', array(
-        'label' => __('Background Color', 'sample_theme'),
+        'label' => __('Background Color', 'travel-agency'),
         'setting' => 'sample_btn_back',
         'section' => 'sample_buttons_area',
     )));
@@ -205,7 +205,7 @@ function sample_global_customize($wp_customize){
         'transport' => 'refresh',
     ));
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_btn_bg_hover', array(
-        'label' => __('Background Hover', 'sample_theme'),
+        'label' => __('Background Hover', 'travel-agency'),
         'setting' => 'sample_btn_bg_hover',
         'section' => 'sample_buttons_area',
     )));
@@ -216,7 +216,7 @@ function sample_global_customize($wp_customize){
         'transport' => 'refresh',
     ));
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'sample_btn_border', array(
-        'label' => __('Border Color', 'sample_theme'),
+        'label' => __('Border Color', 'travel-agency'),
         'setting' => 'sample_btn_border',
         'section' => 'sample_buttons_area',
     )));
@@ -246,9 +246,9 @@ function sample_global_customize($wp_customize){
 
     // Font Area
     $wp_customize-> add_section('sample_fonts_area', array(
-        'title' =>__('Fonts', 'sample_theme'),
+        'title' =>__('Fonts', 'travel-agency'),
         'priority' => 70,
-        'panel' => 'sample_theme_global',
+        'panel' => 'travel-agency_global',
     ));
 
     
@@ -367,11 +367,11 @@ add_action('customize_register', 'sample_global_customize');
 
 
 // Customizer CSS
-function sample_theme_customizer_css(){
+function travel_agency_customizer_css(){
     ?>
     <style type="text/css">
         body{
-            background-color: <?php echo get_theme_mod('sample_theme_color_picker', '#ffffff'); ?>;
+            background-color: <?php echo get_theme_mod('travel-agency_color_picker', '#ffffff'); ?>;
         }
         #header_area{
             background-color: <?php echo get_theme_mod('sample_headercolor', '#ffffff'); ?>;
@@ -444,7 +444,7 @@ function sample_theme_customizer_css(){
 
     <?php
 }
-add_action('wp_head', 'sample_theme_customizer_css');
+add_action('wp_head', 'travel_agency_customizer_css');
 
 
 
