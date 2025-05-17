@@ -4,7 +4,8 @@
             <div class="col-sm-6">
                 <div class="footer_text">
                     <h2>Ready to Start Your Adventure?</h2>
-                    <p></p>
+                    <p>Let us help you create the perfect journey. Our travel experts are ready to craft your dream vacation.</p>
+                    <a href="#">Start Planning </a>
                 </div>
             </div>
             <div class="col-sm-6"></div>
