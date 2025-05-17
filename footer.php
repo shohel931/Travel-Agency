@@ -1,4 +1,16 @@
-
+<section id="footer_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="footer_text">
+                    <h2>Ready to Start Your Adventure?</h2>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-sm-6"></div>
+        </div>
+    </div>
+</section>
 
 
 <footer id="footer_area">
