@@ -76,6 +76,9 @@ body{
 #footer_area{
     background-color: #001219;
     color: #fff;
+}
+.widgrt_area{
+    border-bottom: 1px solid #fff ;
     padding: 20px 0;
 }
 .widgrt_area .col-sm-3 img{
@@ -85,15 +88,17 @@ body{
     font-size: 25px;
     font-family: "PT Serif";
 }
-.widgrt_area .col-sm-3 p{
-    font-size: 16px;
+.widgrt_area .col-sm-3 ul{
+    list-style: none;
+    padding: 0;
+}
+.widgrt_area .col-sm-3 ul li{
+    margin: 10px 0;
+}
+.widgrt_area .col-sm-3 ul li a{
+    text-decoration: none;
+    color: #fff;
 }
 .widgrt_area .col-sm-3 p{
-    font-size: 16px;
-}
-.widgrt_area .col-sm-3 p{
-    font-size: 16px;
-}
-.widgrt_area .col-sm-3 p{
-    font-size: 16px;
+    font-size: 18px;
 }
