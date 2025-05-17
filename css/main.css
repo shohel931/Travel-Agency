@@ -109,13 +109,12 @@ body{
 }
 #footer_section{
     background: #FB5607;
-    height: 50%;
 }
 .footer_text h2{
     font-size: 60px;
     color: #fff;
     font-family: "PT Serif";
-    margin-top: 150px;
+    margin-top: 125px;
 }
 .footer_text p{
     font-size: 16px;
@@ -132,4 +131,7 @@ body{
 }
 .footer_img{
     text-align: center;
+}
+.footer_img img{
+    margin-top: -90px;
 }
