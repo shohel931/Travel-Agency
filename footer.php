@@ -1,3 +1,6 @@
+
+
+
 <footer id="footer_area">
     <div class="widgrt_area">
     <div class="container">
