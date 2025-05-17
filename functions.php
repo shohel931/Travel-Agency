@@ -2,39 +2,13 @@
 
 
 
-// enqueue file
-include_once('inc/enqueue.php');
-
-
-// customize include
+// customize 
 include_once('inc/customize.php');
 
 
-// Menu Register
-include_once('inc/menu_register.php');
+// enqueue 
+include_once('inc/enqueue.php');
 
 
-// Widget Register
-include_once('inc/widget_register.php');
-
-
-// Login enqueue Register
-include_once('inc/login_enqueue.php');
-
-
-// Login enqueue Register
-include_once('inc/default.php');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// widgets 
+include_once('inc/widgets.php');
