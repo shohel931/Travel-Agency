@@ -144,3 +144,17 @@ body{
     border-radius: 5px;
     text-decoration: none;
 }
+.custom_button:hover{
+    background-color: #FF6E0E;
+    color: #fff;
+}
+
+/* Home Page */
+#home_area{
+    background-image: url(/img/footerimg.png);
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

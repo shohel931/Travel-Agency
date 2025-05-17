@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
-
+<div class="post_area">
+     
+</div>
 
 
 

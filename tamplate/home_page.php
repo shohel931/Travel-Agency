@@ -13,8 +13,8 @@ get_header();
                 <div class="home_area_content">
                     <h1>Welcome to Our Website</h1>
                     <p>Your one-stop solution for all your needs.</p>
-                    <a href="#services" class="btn btn-primary">Explore Services</a>
-                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="#services" class="custom_button">Explore Services</a>
+                    <a href="#services" class="custom_button">Explore Services</a>
                 </div>
             </div>
         </div>
