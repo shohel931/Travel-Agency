@@ -135,3 +135,12 @@ body{
 .footer_img img{
     margin-top: -90px;
 }
+
+/* Custom Button */
+.custom_button{
+    background-color: #FB5607;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
