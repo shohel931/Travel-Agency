@@ -107,3 +107,29 @@ body{
     text-align: center;
     padding: 10px 0;
 }
+#footer_section{
+    background: #FB5607;
+    height: 50%;
+}
+.footer_text h2{
+    font-size: 60px;
+    color: #fff;
+    font-family: "PT Serif";
+    margin-top: 150px;
+}
+.footer_text p{
+    font-size: 16px;
+    color: #fff;
+}
+.footer_text a{
+    text-decoration: none;
+    color: #FB5607;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #FB5607;
+    font-weight: 600;
+}
+.footer_img{
+    text-align: center;
+}

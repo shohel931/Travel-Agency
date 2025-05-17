@@ -5,10 +5,15 @@
                 <div class="footer_text">
                     <h2>Ready to Start Your Adventure?</h2>
                     <p>Let us help you create the perfect journey. Our travel experts are ready to craft your dream vacation.</p>
-                    <a href="#">Start Planning </a>
+                    <br>
+                    <a href="#">Start Planning <i class="fa-regular fa-circle-right"></i></a>
                 </div>
             </div>
-            <div class="col-sm-6"></div>
+            <div class="col-sm-6">
+                <div class="footer_img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/footerimg.png" alt="Footer Image">
+                    </div>
+            </div>
         </div>
     </div>
 </section>
