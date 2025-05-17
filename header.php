@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="logo">
-                    <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(). '/img/logo.png' ?>" alt=""></a>
+                    <a href="<?php echo home_url(); ?>"><img src="<?php echo get_theme_mod('travel_logo'); ?>" alt=""></a>
                 </div>
             </div>
             <div class="col-md-6">
