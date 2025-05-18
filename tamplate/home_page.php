@@ -34,9 +34,27 @@ get_header();
             <div class="col-md-12">
                 <div class="main_contant">
                     <div class="sub_contant">
-                        <img src="<?php echo get_template_directory_uri(). '/img/image.png' ?>" alt="">
+                        <img src="<?php echo get_template_directory_uri(). '/img/packages-01.jpg' ?>" alt="">
                         <div class="sub_text">
-                            <h5><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></h5>
+                            <h5><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h5>
+                            <h4>Europe</h4>
+                            <h3>Australia</h3>
+                            <p>From $2,499</p>
+                        </div>
+                    </div>
+                    <div class="sub_contant">
+                        <img src="<?php echo get_template_directory_uri(). '/img/packages-02.jpg' ?>" alt="">
+                        <div class="sub_text">
+                            <h5><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h5>
+                            <h4>Europe</h4>
+                            <h3>Australia</h3>
+                            <p>From $2,499</p>
+                        </div>
+                    </div>
+                    <div class="sub_contant">
+                        <img src="<?php echo get_template_directory_uri(). '/img/packages-03.jpg' ?>" alt="">
+                        <div class="sub_text">
+                            <h5><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h5>
                             <h4>Europe</h4>
                             <h3>Australia</h3>
                             <p>From $2,499</p>
