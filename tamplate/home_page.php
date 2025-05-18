@@ -38,7 +38,7 @@ get_header();
                         <div class="sub_text">
                             <h5><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h5>
                             <h4>Europe</h4>
-                            <h3>Australia</h3>
+                            <h3>Spain</h3>
                             <p>From $2,499</p>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ get_header();
                         <div class="sub_text">
                             <h5><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h5>
                             <h4>Europe</h4>
-                            <h3>Australia</h3>
+                            <h3>Egypt</h3>
                             <p>From $2,499</p>
                         </div>
                     </div>

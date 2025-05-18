@@ -161,14 +161,14 @@ body{
 }
 
 
-#popular{
+#popular {
     background-color: #FFFFFC;
     font-family: "PT Serif";
-    padding: 100px 0;
+    padding: 80px 0;
+    height: 1130px;
 }
 #popular .title_text{
     text-align: center;
-    padding-top: 60px;
 }
 #popular .title_text h4 {
     font-size: 20px;
@@ -202,14 +202,14 @@ body{
     z-index: -999999;
 }
 .main_contant .sub_contant .sub_text {
-    padding: 20px;
+    padding: 28px 0;
     background-color: #FFFFFC;
     border-radius: 50% 50% 0 0;
-    margin: -91px 80px;
+    margin: -107px 76px;
     z-index: 10000 !important;
     position: absolute;
     text-align: center;
-    width: 220px;
+    width: 240px;
 }
 .main_contant .sub_contant .sub_text h5{
     font-size: 22px;
