@@ -67,7 +67,24 @@ get_header();
 </section>
 
 
-
+<section id="Journey">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="Journey_main">
+                    <div class="sub_Journey">
+                    <img src="<?php echo get_template_directory_uri(). '/img/' ?>" alt="">
+                    </div>
+                    <div class="sub_Journey">
+                        <h4>About Us</h4>
+                        <h2></h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php
 get_footer();
