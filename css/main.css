@@ -152,10 +152,36 @@ body{
 
 /* Home Page */
 #home_area{
-    background-image: url(/img/footerimg.png);
+    background-image: url(/img/home2.png);
     background-repeat: no-repeat;
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+#popular{
+    background-color: #FFFFFC;
+    font-family: "PT Serif";
+    padding: 100px 0;
+}
+#popular .title_text{
+    text-align: center;
+    padding-top: 60px;
+}
+#popular .title_text h4 {
+    font-size: 20px;
+    color: #FDA22A;
+    background-color: #FFECE1;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    width: 17%;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+#popular .title_text h2{
+    font-size: 65px;
+    color: #000000;
+    margin-top: 20px;
 }

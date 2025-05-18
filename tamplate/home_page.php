@@ -21,6 +21,36 @@ get_header();
     </div>
 </section>
 
+
+
+
+<section id="popular">
+    <div class="title_text">
+        <h4>popular destinations</h4>
+        <h2>Handpicked Packages</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="main_contant">
+                    <div class="sub_contant">
+                        <img src="<?php echo get_template_directory_uri(). '/img/image.png' ?>" alt="">
+                        <div class="sub_text">
+                            <h5></h5>
+                            <h4></h4>
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
 <?php
 get_footer();
 ?>
