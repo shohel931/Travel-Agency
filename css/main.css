@@ -304,3 +304,16 @@ body{
 .sub_text p i{
     color: #FB5607;
 }
+.ratting{
+    display: flex;
+    margin-top: 40px;
+    padding: 0 30px;
+}
+.ratting .image{
+    margin: 0 20px;
+}
+.ratting .image img {
+    clip-path: circle(40%);
+    margin-left: -35px;
+    width: 65px;
+}

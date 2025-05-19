@@ -91,6 +91,15 @@ get_header();
                                 <a class="all_button" href="#">Learn More <i class="fa-regular fa-circle-right"></i></a>
                             </div>
                         </div>
+                        <div class="ratting">
+                            <div class="image">
+                                <img src="<?php echo get_template_directory_uri(). '/img/home-journey3.jpg' ?>" alt="">
+                                <img src="<?php echo get_template_directory_uri(). '/img/home-journey4.jpg' ?>" alt="">
+                            </div>
+                            <div class="text_area">
+                                <p>4.7 Star Rating <br>Based on 3,571 Reviews</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
