@@ -292,7 +292,9 @@ body{
     display: flex;
     margin-top: 50px;
 }
-
+..sub_video{
+    margin: 0 20px;
+}
 .sub_video p i{
     color: #FB5607;
 }
