@@ -87,7 +87,8 @@ get_header();
                                 <p><i class="fa-regular fa-circle-check"></i> Budget-Friendly</p>
                                 <p><i class="fa-regular fa-circle-check"></i> Luxurious Getaways</p>
                                 <p><i class="fa-regular fa-circle-check"></i> Trusted Local Guides</p>
-                                <a href="#">Learn More </a>
+                                <br>
+                                <a class="all_button" href="#">Learn More <i class="fa-regular fa-circle-right"></i></a>
                             </div>
                         </div>
                     </div>
