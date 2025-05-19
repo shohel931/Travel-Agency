@@ -73,7 +73,7 @@ get_header();
             <div class="col-md-12">
                 <div class="Journey_main">
                     <div class="sub_Journey">
-                    <img src="<?php echo get_template_directory_uri(). '/img/' ?>" alt="">
+                    <img src="<?php echo get_template_directory_uri(). '/img/section2.png' ?>" alt="">
                     </div>
                     <div class="sub_Journey">
                         <h4>About Us</h4>
