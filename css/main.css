@@ -276,3 +276,11 @@ body{
     font-weight: 600;
     font-family: "PT Serif";
 }
+.video_text{
+    display: flex;
+    margin-top: 50px;
+}
+
+.sub_video p i{
+    color: #FB5607;
+}
