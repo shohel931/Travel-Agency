@@ -239,3 +239,38 @@ body{
     margin-top: 10px;
     font-weight: 400;
 }
+
+
+#Journey{
+    background-color: #FFF7EC;
+    padding: 80px 0;
+    height: 1130px;
+}
+.Journey_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_Journey {
+    width: 50%;
+    text-align: center;
+}
+.sub_Journeys{
+    width: 50%;
+}
+.sub_Journeys h4 {
+    font-size: 16px;
+    color: #FB5607;
+    text-transform: uppercase;
+    background-color: #FFFFFC;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin: 0px;
+    width: 25%;
+    text-align: center;
+}
+.sub_Journeys h2{
+    font-size: 60px;
+    color: #000000;
+    margin-top: 20px;
+}

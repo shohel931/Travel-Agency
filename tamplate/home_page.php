@@ -75,10 +75,10 @@ get_header();
                     <div class="sub_Journey">
                     <img src="<?php echo get_template_directory_uri(). '/img/section2.png' ?>" alt="">
                     </div>
-                    <div class="sub_Journey">
+                    <div class="sub_Journeys">
                         <h4>About Us</h4>
-                        <h2></h2>
-                        <p></p>
+                        <h2>Your Journey, Our Passion</h2>
+                        <p>We believe that travel is more than just visiting new places; it's about creating memories, experiencing diverse cultures, and discovering the wonders of the world. With years of experience in the travel industry, our dedicated team is committed to providing exceptional travel experiences tailored to your unique desires and needs.</p>
                     </div>
                 </div>
             </div>
