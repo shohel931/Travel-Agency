@@ -292,9 +292,15 @@ body{
     display: flex;
     margin-top: 50px;
 }
-..sub_video{
-    margin: 0 20px;
+.video_text .sub_video video{
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
 }
-.sub_video p i{
+.sub_video{
+    margin: 0 20px;
+    width: 50%;
+}
+.sub_text p i{
     color: #FB5607;
 }

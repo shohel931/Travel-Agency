@@ -81,9 +81,9 @@ get_header();
                         <p>We believe that travel is more than just visiting new places; it's about creating memories, experiencing diverse cultures, and discovering the wonders of the world. With years of experience in the travel industry, our dedicated team is committed to providing exceptional travel experiences tailored to your unique desires and needs.</p>
                         <div class="video_text">
                             <div class="sub_video">
-                                <video src="<?php echo get_template_directory_uri(). '/img/video.mp4' ?>"></video>
+                                <video width="320" height="195" controls src="<?php echo get_template_directory_uri(). '/img/video.mp4' ?>"></video>
                             </div>
-                            <div class="sub_video">
+                            <div class="sub_text">
                                 <p><i class="fa-regular fa-circle-check"></i> Budget-Friendly</p>
                                 <p><i class="fa-regular fa-circle-check"></i> Luxurious Getaways</p>
                                 <p><i class="fa-regular fa-circle-check"></i> Trusted Local Guides</p>
