@@ -118,13 +118,17 @@ get_header();
             <div class="col-md-12">
                 <div class="main_destition">
                     <div class="sub_destition">
-                        <h4></h4>
+                        <h4>Choose Your Place</h4>
                         <h2></h2>
                         <p></p>
                         <a class="all_button" href="#">Find Packages <i class="fa-regular fa-circle-right"></i></a>
                     </div>
-                    <div class="sub_destition"></div>
-                    <div class="sub_destition"></div>
+                    <div class="sub_destition">
+                        <img src="<?php echo get_template_directory_uri(). '/img/home-destination.jpg' ?>" alt="">
+                    </div>
+                    <div class="sub_destition">
+                        <img src="<?php echo get_template_directory_uri(). '/img/home-destination.jpg' ?>" alt="">
+                    </div>
                 </div>
             </div>
         </div>
