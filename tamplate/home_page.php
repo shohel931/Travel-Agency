@@ -120,7 +120,7 @@ get_header();
                     <div class="sub_destition">
                         <h4>Choose Your Place</h4>
                         <h2>Popular Destinations</h2>
-                        <p>Join us as we explore the wonders of the globe, one incredible journey at a time.</p>
+                        <p>Join us as we explore the wonders of the globe, one incredible journey at a time.</p><br>
                         <a class="all_button" href="#">Find Packages <i class="fa-regular fa-circle-right"></i></a>
                     </div>
                     <div class="sub_destition">
