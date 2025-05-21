@@ -343,3 +343,15 @@ body{
     text-align: left;
     font-weight: 400;
 }
+.main_destition .sub_destition h2{
+    font-size: 60px;
+    color: #000000;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: "PT Serif";
+}
+.main_destition .sub_destition img{
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+}
